@@ -25,6 +25,7 @@ body{
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: gray;
+  width:1400px;
 }
 .left_section{
   width: 330px;
