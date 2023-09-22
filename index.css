@@ -1,0 +1,256 @@
+.search-bar{
+  display: block;
+  margin-left: 70px;
+  height: 35px;
+  margin-left: -30px;
+  border: none;
+  background-color: white;
+  padding-left: 30px;
+  border-radius: 30px;
+  width: 0;
+}
+body{
+  margin: 0;
+  padding-top: 80px;
+}
+.header{
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+}
+.left_section{
+  width: 330px;
+  display: flex;
+  align-items: center;
+}
+.search-button-icon{
+  width: 30px;
+}
+.search-button{
+  margin-left: 40px;
+  border-radius: 30px;
+  border: none;
+  background-color: white;
+  z-index: 100;
+}
+.right_section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  flex-shrink: 0;
+}
+.notepad{
+  height: 30px;
+  margin-left: 10px;
+}
+.write{
+ height: 24px;
+ margin-left: -40px;
+ color: gray;
+}
+.notification{
+  height: 24px;
+  margin-left: -40px;
+}
+.profile{
+  height: 24px;
+  padding-left: 25px;
+  margin-left: -15px;
+}
+.logo{
+  width: 45px;
+  margin-left: 20px;
+}
+
+.web {
+  font-size: 12px;
+  color: rgb(133, 128, 128);
+  display: inline-block;
+  font-family: Roboto, Arial;
+}
+.greater {
+  display: inline-block;
+}
+.story {
+  font-size: 13px;
+  display: inline-block;
+  font-weight: 400;
+  font-family: Roboto, Arial;
+}
+.main {
+  width: 410px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  font-size: 50px;
+  color: rgb(53, 53, 53);
+}
+.help {
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  display: inline-block;
+  color: rgb(111, 110, 110);
+  margin-top: 370px;
+}
+.text {
+  display: inline-block;
+  color: rgb(111, 110, 110);
+  font-size: 12px;
+  font-family: Roboto, Arial;
+}
+.channel-01,
+.channel-02{
+  display: inline-block;
+} 
+.left-section{
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 170px;
+}
+.right-section{
+  display: inline-block;
+  width: 410px;
+  vertical-align: top;
+  padding-left: 150px;
+}
+.profile-picture-1,
+.profile-picture-2{
+  display: inline-block;
+  width: 28px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.name-1,
+.name-2{
+  display: inline-block;
+  font-size: 13px;
+  vertical-align: middle;
+  padding-bottom: 15px;
+  font-family: Roboto, Arial;
+  color: rgb(126, 124, 124);
+}
+.decription-1,
+.decription-2{
+  font-family: Roboto, Arial;
+}
+.para-1{
+  font-family: Roboto, Arial;
+  font-size: 30px;
+  margin-top: 0px;
+  font-weight: 700;
+  width: 410px;
+  display: inline-block;
+}
+.para-2{
+  width: 410px;
+  font-family: Roboto, Arial;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(82, 73, 73);
+  display: inline-block;
+}
+.photo-1,
+.photo-2{
+  justify-content: end;
+  align-items: end;
+  margin-bottom: 15px;
+}
+.image-1,
+.image-2{
+  width: 180px;
+  align-items: end;
+  justify-content: end;
+  margin-left: 75px;
+}
+.message-1,
+.message-2{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.star-1,
+.star-2{
+  width: 25px;
+}
+.time-1,
+.time-2{
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  vertical-align: top;
+  padding-top: 5px;
+  font-family: Roboto, Arial;
+  color: rgb(109, 108, 108);
+  font-size: 13px;
+}
+.footer-1,
+.footer-2{
+  padding-bottom: 28px;
+}
+.clapping-01,
+.clapping-02{
+  width: 33px;
+}
+.people-1,
+.people-2{
+  display: inline-block;
+  margin: 0px 0px 0px 0px;
+  vertical-align: top;
+  margin-top: 13px;
+  color: rgb(149, 146, 146);
+  font-size: 13px;
+  font-family: Roboto, Arial;
+  margin-right: 40px;
+}
+.messages-icon-1,
+.messages-icon-2{
+  display: inline-block;
+  width: 28px;
+  margin-right: 20px;
+}
+.seen-1,
+.seen-2{
+  display: inline-block;
+  color: rgb(148, 148, 148);
+  vertical-align: top;
+  margin: 0 0 0 0;
+  margin-top: 0px;
+  font-family: Roboto,Arial;
+  font-size: 15px;
+  margin-top: 8px;
+  padding-right: 150px;
+}
+.bookmark-1,
+.bookmark-2{
+  display: inline-block;
+}
+.bookmark-icon-1,
+.bookmark-icon-2{
+  display: inline-block;
+  width: 25px;
+  margin-left: 400px;
+  vertical-align: top;
+  margin-top: -30px;
+}
+.ellipsis-1,
+.ellipsis-2{
+  display: inline-block;
+}
+.ellipsis-icon-1,
+.ellipsis-icon-2{
+  display: inline-block;
+  width: 25px;
+  margin-left: 20px;
+  vertical-align: top;
+  margin-top: -30px;
+}
